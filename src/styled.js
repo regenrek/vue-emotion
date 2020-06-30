@@ -57,11 +57,11 @@ const createStyled = (tag, options = {}) => {
     const Styled = {
       functional: true,
 
-      inject: {
-        theme: {
-          default: undefined
-        }
-      },
+      // inject: {
+      //   theme: {
+      //     default: undefined
+      //   }
+      // },
 
       render(h, { data, children, parent, injections }) {
         const cache = parent.$emotionCache

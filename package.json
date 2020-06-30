@@ -61,6 +61,7 @@
     "saber": "^0.10.4",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10",
+    "vue-tsx-support": "^2.3.3",
     "xo": "^0.25.3"
   },
   "husky": {
